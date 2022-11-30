@@ -1,0 +1,18 @@
+{
+  "name": "product-card",
+  "version": "1.0.0",
+  "description": "productcard",
+  "main": "index.js",
+  "scripts": {
+    "test": "homework"
+  },
+  "repository": {
+    "type": "git",
+    "url": "product-card"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "OlenaIvchenko",
+  "license": "ISC"
+}
