@@ -33,10 +33,6 @@
   &__wrapper {
     position: relative;
     cursor: pointer;
-     
-    // &--not-mr {
-    //   margin-right: 0;
-    // }
   }
   &__radio {
     position: absolute;
@@ -90,7 +86,7 @@
    border: 1px solid $color-gray4;
    border-radius: 50%;
    left: -4px;
-   top: -3px;
+   top: -3,5px;
    opacity: 0;
 
     &--white {
