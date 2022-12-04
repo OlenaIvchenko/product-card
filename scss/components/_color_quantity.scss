@@ -59,7 +59,7 @@
 }
 
 .circle-grey {
-    fill: $color-circle-g;
+    fill: $color-circle-grey;
 }
 
 .circle-darkblue {
@@ -83,7 +83,7 @@
 .row-colors__circle {
    position: absolute;
    @include svg(22px);
-   border: 1px solid $color-gray4;
+   border: 1px solid $color-circle-grey;
    border-radius: 50%;
    left: -4px;
    top: -3,5px;
