@@ -1,3 +1,44 @@
-.wrapper-img__img {
-    max-width: 480px;
-}
+.wrapper-img {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-top: calc(289 / 480 * 100%);
+    overflow: hidden;
+    border-radius: 6px;
+      &__img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        object-fit: cover;
+        background: $color-bg-image;
+      }
+    &--mb {
+        margin-top: 40px;
+      margin-bottom: 16px;
+    }
+    &__arrow-left {
+      position: absolute;
+      top: 128px;
+      left: 15px;
+      height: 14px;
+      width: 7px;
+    }
+    &__arrow-right {
+      position: absolute;
+      top: 128px;
+      right: 15px;
+      height: 14px;
+      width: 7px;
+    }
+    &__line {
+      position: absolute;
+      bottom: 12px;
+      left: 45px;
+      height: 1px;
+      width: 390px;
+    }
+  }

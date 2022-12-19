@@ -13,9 +13,12 @@
     border-radius: 4px;   
     border: none;
     outline: none;
+    cursor: pointer;
+    
     transition: all .3s ease;
       &:hover {
         background: $color-gray2;
+        
       }
       &:focus {
         box-shadow: 0 0 0 1px $color-lightorange;
