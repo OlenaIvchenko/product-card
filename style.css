@@ -940,7 +940,6 @@ body {
   width: 100%;
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .button {
@@ -963,6 +962,7 @@ body {
 .button--secondary {
   background-color: white;
   outline: 1px solid #4F4F4F;
+  margin-left: 20px;
 }
 .button--secondary:hover {
   background: #ffffff;
