@@ -1,0 +1,18 @@
+@mixin text($font-size, $font-weight, $color, $line-height: initial) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+    line-height: $line-height;
+  }
+  
+  @mixin size($size, $rounded: false) {
+    width: $size;
+    height: $size;
+    @if $rounded {
+      border-radius: 50%;
+    }
+  }
+  
+  @mixin svg($size) {
+    @include size($size);
+  }
